@@ -27,6 +27,8 @@ use GuzzleHttp\Exception\RequestException;
 use GuzzleHttp\Exception\ConnectException;
 
 
+	set_time_limit(0);
+
 	/*********************************************************************
 	 * Prize drawing structure, according to the Millions BIP Lottery rules
 	 */
